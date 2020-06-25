@@ -1,5 +1,16 @@
 Experiments for EMNLP_2020 paper
 
+#### Datasets summary
+ 
+| Dataset  | #docs | top terms (coef>=1) | #matched sentences for top terms | placebo terms | #matched sentences for placebo terms |
+| ---------| ------| --------------------| ---------------------------------| --------------| -------------------------------------|
+| IMDB | 10,662 | 366 | 8,882 | 626 (coef<=0.1) | 12,996 |
+| Kindle | 20,233 (N, 10,161) (P, 10,072) | 270 | 24,882 | 569 (coef <=0.2) | 13,850|
+| Toxic comment | 15,216 | 329 | 8,414 | 750 (coef<=0.1) | 30,454 |
+| Toxic tweet | 6,774 | 341 (coef >=0.7) | 9,224 | 574 (coef<=0.2) | 5,457 |
+
+
+
 
 #### Data structure (class Dataset):
 
